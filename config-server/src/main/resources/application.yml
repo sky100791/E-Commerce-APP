@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/sky100791/e-commerce-app-config
+          uri: https://github.com/sky100791/E-commerce-app-config
   application:
     name: config-server
 eureka:
