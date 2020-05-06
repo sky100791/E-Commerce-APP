@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: api-gateway
+server:
+  port: 8111
+zuul:
+  routes:
+    products:
+      path: /api/** 
+      url: http://localhost:9001/
+    cart:
+      path: /api/** 
+      url: http://localhost:9002/
